@@ -1,0 +1,20 @@
+# Core Python scientific stack
+numpy>=1.23
+pandas>=2.0
+scipy>=1.10
+
+# PyTorch (CPU version)
+# If you have CUDA, replace with torch==2.2.0+cu121 and or install manually
+torch>=2.2.0
+
+# YAML config loader
+pyyaml>=6.0
+
+# For saving/loading with pickle safely
+cloudpickle>=3.0
+
+# Optional: nice progress bars (if you want)
+tqdm>=4.65
+
+# For running on Mac/CPU: accelerate matmul
+torchvision>=0.17.0
