@@ -1,3 +1,4 @@
+## Primary Personal Contributions made to the Preprocessing of Data into Edge X Feature Matrix, P0 matrix ( binary mutation profiles), and implementing best suited molecular interaction network. Code found in data_preprocessing.py and main.ipnyb 
 # bioModeling - Supervised Random Walk (SRW)
 
 Follow the steps below to successfully run the code.
