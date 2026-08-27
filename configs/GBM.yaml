@@ -1,0 +1,22 @@
+dataset_name: GBM
+
+# All paths defined here
+paths:
+  data_root: "data/GBM"
+
+files:
+  edge: "GBM_edge2features.txt"
+  train_data: "GBM_training_data.txt"
+  train_labels: "GBM_training_labels_m.txt"
+  val_data: "GBM_validation_data.txt"
+  val_labels: "GBM_validation_labels_m.txt"
+  feature_names: "GBM_feature_names.txt"
+
+hyperparams:
+  rst_prob: 0.3
+  lam: 0.1
+  norm_type: "L1"
+  WMW_b: 0.0002
+  lr: 0.2
+  max_epochs: 450
+  early_stop: 450

@@ -1,0 +1,22 @@
+dataset_name: BRCA_small
+
+# All paths defined here
+paths:
+  data_root: "data/BRCA_small"
+
+files:
+  edge: "BRCA_edge2features_2.txt"
+  train_data: "BRCA_training_data_2.txt"
+  train_labels: "BRCA_training_labels_2.txt"
+  val_data: "BRCA_validation_data_2.txt"
+  val_labels: "BRCA_validation_labels_2.txt"
+  feature_names: "BRCA_feature_names_2.txt"
+
+hyperparams:
+  rst_prob: 0.3
+  lam: 0.1
+  norm_type: "L1"
+  WMW_b: 0.0002
+  lr: 0.25
+  max_epochs: 500
+  early_stop: 500

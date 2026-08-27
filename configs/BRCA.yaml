@@ -1,0 +1,22 @@
+dataset_name: Metabric_BRCA
+
+# All paths defined here
+paths:
+  data_root: "data/BRCA"
+
+files:
+  edge: "BRCA_edge2features.txt"
+  train_data: "BRCA_training_data_filtered.txt"
+  train_labels: "BRCA_training_labels_filtered.txt"
+  val_data: "BRCA_validation_data_filtered.txt"
+  val_labels: "BRCA_validation_labels_filtered.txt"
+  feature_names: "BRCA_feature_names.txt"
+
+hyperparams:
+  rst_prob: 0.31
+  lam: 0.13
+  norm_type: "L1"
+  WMW_b: 0.002
+  lr: 0.20
+  max_epochs: 500
+  early_stop: 500
